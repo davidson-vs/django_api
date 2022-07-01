@@ -19,9 +19,9 @@ from app.views import AlunosViewSet, CursosViewSet
 from rest_framework import routers
 from app.urls import route 
 
-router = routers.DefaultRouter()
-router.register('alunos', AlunosViewSet, basename='Alunos')
-router.register('cursos', CursosViewSet, basename='Cursos')
+# router = routers.DefaultRouter()
+# router.register('alunos', AlunosViewSet, basename='Alunos')
+# router.register('cursos', CursosViewSet, basename='Cursos')
 
 
 urlpatterns = [

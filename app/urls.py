@@ -6,4 +6,4 @@ route = routers.DefaultRouter()
 
 alunos = route.register('alunos', viewset= AlunosViewSet, basename= 'Alunos')
 cursos = route.register('cursos', viewset = CursosViewSet, basename = 'Cursos')
-matriculas = route.register('matriculas', viewset = MatriculasViewSet, basename= 'Matricula')
+matriculas = route.register('matriculas', viewset = MatriculasViewSet, basename= 'Matriculas')

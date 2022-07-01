@@ -16,4 +16,4 @@ class CursoSerializer(serializers.ModelSerializer):
 class MatriculaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Matricula
-        fields =[] # -> Esta forma voce indica na lista os elementos que voce não quer que sejam retornados
+        fields ='__all__'
